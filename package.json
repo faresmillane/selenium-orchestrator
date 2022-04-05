@@ -1,0 +1,15 @@
+{
+  "name": "selenium-orchestrator",
+  "version": "1.0.0",
+  "description": "manage selenium server",
+  "main": "index.js",
+  "scripts": {
+    "selenium-server": "node ./bin/cli.js"
+  },
+  "author": "fares.millane",
+  "license": "ISC",
+  "bin": "./bin/cli.js",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
