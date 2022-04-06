@@ -4,7 +4,7 @@
   "description": "manage selenium server",
   "main": "index.js",
   "scripts": {
-    "selenium-server": "node ./bin/cli.js"
+    "selenium-server": "node ./lib/start.js"
   },
   "author": "fares.millane",
   "license": "ISC",
