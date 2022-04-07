@@ -2,9 +2,9 @@
   "name": "selenium-orchestrator",
   "version": "1.0.0",
   "description": "manage selenium server",
-  "main": "index.js",
   "scripts": {
-    "selenium-server": "node ./lib/start.js"
+    "selenium-start": "node ./lib/start.js",
+    "selenium-restart": "node ./lib/restart.js"
   },
   "author": "fares.millane",
   "license": "ISC",
