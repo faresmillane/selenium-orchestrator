@@ -5,6 +5,6 @@
 detect-drivers = false
 [[node.driver-configuration]]
 display-name = "Edge node"
-stereotype = "{\"browserName\": \"edge\"}"
+stereotype = "{\"browserName\": \"MicrosoftEdge\"}"
 max-sessions = 5
 webdriver-executable = './drivers/msedgedriver'
