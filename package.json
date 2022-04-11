@@ -5,7 +5,8 @@
   "scripts": {
     "selenium:start": "node ./lib/start.js",
     "selenium:restart": "node ./lib/restart.js",
-    "appium:start": "./node_modules/.bin/appium"
+    "appium:start": "./node_modules/.bin/appium",
+    "update:selenium": "node ./lib/update.js"
   },
   "author": "fares.millane",
   "license": "ISC",

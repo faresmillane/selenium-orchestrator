@@ -5,7 +5,7 @@ module.exports = {
     nodes: [
         {
             driverName: 'chrome',
-            active: true,
+            active: false,
             port: 4445,
         },
         {
@@ -23,5 +23,17 @@ module.exports = {
             active: false,
             port: 4448,
         },
-    ]
+    ],
+    update: {
+        selenium: 'https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.1.0/selenium-server-4.1.3.jar',
+        chrome: {
+            windows: '',
+            linux: '',
+        },
+        firefox: {
+            windows: 'https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-win64.zip',
+            linux: 'https://github.com/mozilla/geckodriver/releases/download/v0.31.0/geckodriver-v0.31.0-linux64.tar.gz'
+        }
+
+    }
 };
