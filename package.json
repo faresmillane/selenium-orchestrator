@@ -12,7 +12,6 @@
   "license": "ISC",
   "bin": "./bin/cli.js",
   "dependencies": {
-    "appium": "^1.22.3",
     "axios": "^0.26.1"
   }
 }
