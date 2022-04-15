@@ -1,6 +1,11 @@
-# selenium-grid-manager
+# Selenium-grid-manager
 A selenium grid 4 server and browser drivers manager for your end to end tests.
 Great tool for launching [Selenium](http://www.seleniumhq.org/download/) with [WebDriver](https://w3c.github.io/webdriver/) support.
+
+Supported Drivers:
+ * [ChromeDriver](https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver)
+ * [geckodriver](https://github.com/mozilla/geckodriver/releases) (Firefox)
+ * [Edge WebDriver](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#downloads)
 
 Getting Started
 ---------------
