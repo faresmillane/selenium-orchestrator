@@ -21,7 +21,8 @@ Setting
 Before starting the selenium server, configure your package.json and download the selenium server jar and driver binaries, it will download the selenium grid server jar, chromedriver, geckodriver and msedgedriver binary.
 
 1- create a configuration file at the root of your project.
-NB: the file must be named "selenium-config.js".
+
+`NB`: the file must be named "selenium-config.js".
 
 ```
 module.exports = {
@@ -79,6 +80,7 @@ By default, the selenium server will run on `http://localhost:4444/ui/index.html
 ```
 npm run selenium:server start
 ```
+Congratulations, selenium server is listening on port 4444, you can set that in your selenium webdriver client.
 
 Other useful commands
 ---------------------
@@ -95,4 +97,6 @@ npm run selenium:server reinstall
 npm run selenium:server clean
 ```
 
-Congratulations, selenium server is listening on port 4444, you can set that in your selenium webdriver client
+## Available browsers
+
+By default, Google Chrome, Firefox and Microsoft Edge are available when installed on the host system.
