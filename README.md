@@ -10,6 +10,7 @@ Supported Drivers:
 
 Getting Started
 ---------------
+Before starting the installation, you must make sure you have [Java](https://www.java.com/en/download/manual.jsp) and [nodeJS](https://nodejs.org/en/download/) installed and configured on your machine.
 
 ```
 npm install selenium-grid-manager
